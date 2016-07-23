@@ -13,7 +13,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class NetObservable extends Observable {
-     
+    private final String TAG = "FSNetObservable";
     private Context context;
 
     public NetObservable(Context context) {
