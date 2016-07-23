@@ -1,14 +1,22 @@
 这是一款基于ijkplayer的MaterialDesign视频播放器
-   -- --
-   开发环境AndroidStudio2.1.1
+ 
+   >开发环境AndroidStudio2.1.1
    gradleVersion = '2.10'
    compileSdkVersion 23
    buildToolsVersion 23.0.3
    ndk版本android-ndk-r10e 
-   -- --
+   
+ -- --
+
 效果图:
-![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-21-31.png)
-![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-22-45.png)![enter image description here](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-31-16.png)
+
+![主页](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-21-31.png)
+![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-35-01.png)
+![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-22-45.png)
+
+![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-25-10.png)
+
+![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-31-16.png)
 ![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-32-58.png)
 ![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-35-37.png)
 
@@ -35,5 +43,6 @@ UI效果:
 项目的主色调为饱和度500的蓝色Blue :#5677fc
 ps材料设计规范:
 工具栏和大色块适合使用饱和度500的基础色，这也是你应用的主要颜色。状态栏适合使用更深一些的饱和度700的基础色。
+图标自己用Photoshop cc 2015处理,需要破解,破解工具就是在不联网的情况下用注册机,修改下hosts文件~
 
 项目开源仅供参考,可以发挥自己的创意,做自己喜欢的app
