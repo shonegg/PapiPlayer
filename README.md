@@ -11,13 +11,17 @@
 效果图:
 
 ![主页](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-21-31.png)
+
 ![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-35-01.png)
+
 ![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-22-45.png)
 
 ![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-25-10.png)
 
 ![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-31-16.png)
+
 ![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-32-58.png)
+
 ![](https://raw.githubusercontent.com/shonegg/PaPaPlayer/master/ScreenShots/Screenshot_2016-07-23-12-35-37.png)
 
 1||支持网络媒体和本地视频播放
