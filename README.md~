@@ -1,0 +1,3 @@
+这是一款基于ijkplayer的MaterialDesign视频播放器
+效果图:
+
