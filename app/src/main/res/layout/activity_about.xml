@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.App.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme_color_primary"
+        android:gravity="center_vertical" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textSize="@dimen/text_size_medium" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_icon"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="@dimen/item_spacing_large"
+        android:paddingRight="@dimen/item_spacing_large"
+        android:text="免责声明：\n\n本App完全免费，媒体内容均来源于互联网，视频版权属于原有版权商，本App仅提供页面播放服务，并不提供影片资源存储，也不参与录制、上传。"
+        android:textSize="@dimen/text_size_large" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="All Rights Reserved (2016)"
+        android:textSize="@dimen/text_size_medium" />
+</RelativeLayout>

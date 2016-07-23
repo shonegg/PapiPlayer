@@ -1,0 +1,9 @@
+include ':libraries:blur', ":app"
+include ':libraries:Headerandfooterrecyclerview'
+
+include ':ijkplayer-java'
+include ':ijkplayer-exo'
+
+
+include ':libraries:PersistentSearch', ':libraries:StatusBarCompat', ':libraries:Flowlayout'
+include ':MyDaoGenerator'

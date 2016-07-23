@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.App.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:gravity="center_vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/item_spacing">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_spacing"
+                android:layout_marginTop="@dimen/item_spacing"
+                android:text="播放"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="@dimen/text_size_xlarge" />
+
+            <com.papi.player.view.foreground.ForegroundLinearLayout
+                android:id="@+id/setting_item_choice"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginTop="@dimen/item_spacing"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/item_spacing"
+                android:paddingRight="@dimen/item_spacing"
+                app:color_Normal="@color/theme_color_window_background"
+                app:color_Ripple="@color/theme_color_gray_pressed">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="清晰度选择"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <TextView
+                    android:id="@+id/setting_qinxidu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/item_half_spacing"
+                    android:text="自动选择:根据机型智能适配"
+                    android:textColor="@color/theme_color_text_hint"
+                    android:textSize="@dimen/text_size_medium" />
+            </com.papi.player.view.foreground.ForegroundLinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@color/theme_color_dividing_line" />
+
+
+            <com.papi.player.view.foreground.ForegroundLinearLayout
+                android:id="@+id/setting_item_nextaction"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginTop="@dimen/item_spacing"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/item_spacing"
+                android:paddingRight="@dimen/item_spacing"
+                app:color_Normal="@color/theme_color_window_background"
+                app:color_Ripple="@color/theme_color_gray_pressed">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="播放完成后动作"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <TextView
+                    android:id="@+id/setting_playaction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/item_half_spacing"
+                    android:text="自动换P:自动播放下一P视频"
+                    android:textColor="@color/theme_color_text_hint"
+                    android:textSize="@dimen/text_size_medium" />
+            </com.papi.player.view.foreground.ForegroundLinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_spacing_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_spacing"
+                android:layout_marginTop="@dimen/item_spacing"
+                android:text="其他"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="@dimen/text_size_xlarge" />
+
+
+            <com.papi.player.view.foreground.ForegroundRelativeLayout
+                android:id="@+id/setting_item_screen"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginTop="@dimen/item_spacing"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/item_spacing"
+                android:paddingRight="@dimen/item_spacing"
+                app:color_Normal="@color/theme_color_window_background"
+                app:color_Ripple="@color/theme_color_gray_pressed">
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="直接横屏播放"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="在视频详情页点击播放后直接进入横屏播放"
+                    android:textColor="@color/theme_color_text_hint"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/setting_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true"
+                    android:enabled="true" />
+            </com.papi.player.view.foreground.ForegroundRelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@color/theme_color_dividing_line" />
+
+
+            <com.papi.player.view.foreground.ForegroundLinearLayout
+                android:id="@+id/setting_item_clear"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginTop="@dimen/item_spacing"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/item_spacing"
+                android:paddingRight="@dimen/item_spacing"
+                app:color_Normal="@color/theme_color_window_background"
+                app:color_Ripple="@color/theme_color_gray_pressed">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="清空图片缓存"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+
+            </com.papi.player.view.foreground.ForegroundLinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@color/theme_color_dividing_line" />
+
+
+            <com.papi.player.view.foreground.ForegroundLinearLayout
+                android:id="@+id/setting_item_about"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginTop="@dimen/item_spacing"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/item_spacing"
+                android:paddingRight="@dimen/item_spacing"
+                app:color_Normal="@color/theme_color_window_background"
+                app:color_Ripple="@color/theme_color_gray_pressed">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="关于"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+
+            </com.papi.player.view.foreground.ForegroundLinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@color/theme_color_dividing_line" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

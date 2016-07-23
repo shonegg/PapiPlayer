@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<style name="AppTheme" parent="@style/AppBaseTheme.Night">-->
+        <!--<item name="android:textColorPrimary">@color/theme_color_text_primary</item>-->
+        <!--<item name="android:textColorHighlight">@color/theme_color_text_highlight</item>-->
+        <!--<item name="android:textColorHint">@color/theme_color_text_hint</item>-->
+        <!--<item name="android:textColorTertiary">@color/theme_color_text_tertiary</item>-->
+        <!--<item name="colorControlNormal">@color/gray_dark</item>-->
+        <!--<item name="colorControlActivated">@color/pink_dark</item>-->
+        <!--<item name="colorControlHighlight">@color/gray</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.AppCompat.Dialog.Alert.Base" parent="@style/Theme.AppCompat.Dialog.Alert" />-->
+
+    <style name="AppTheme.AppCompat.Dialog.Base" parent="@style/Theme.AppCompat.Dialog" />
+
+    <!--<style name="AppTheme.Dialog.SearchDialog" parent="@style/AppTheme.Dialog.NoBackground">-->
+        <!--<item name="android:textColorPrimary">@color/white_trans</item>-->
+        <!--<item name="android:textColorSecondary">@color/gray_dark</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowIsFloating">false</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowEnterAnimation">@anim/fake</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/fake</item>-->
+        <!--<item name="android:windowSoftInputMode">stateAlwaysHidden|adjustResize</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.PopMenu" parent="@style/ThemeOverlay.AppCompat.Dark">-->
+        <!--<item name="android:listSelector">@drawable/item_background</item>-->
+        <!--<item name="android:listChoiceBackgroundIndicator">@drawable/item_background</item>-->
+        <!--<item name="colorControlNormal">@color/gray_dark</item>-->
+        <!--<item name="colorControlActivated">@color/theme_color_primary</item>-->
+        <!--<item name="colorControlHighlight">@color/gray_trans</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.Preference" parent="@style/AppTheme.NoActionBar">-->
+        <!--<item name="android:textColorPrimary">@color/white_trans</item>-->
+        <!--<item name="android:textColorSecondary">@color/gray_second</item>-->
+        <!--<item name="android:listSeparatorTextViewStyle">@style/Widget.TextView.ListSeparator</item>-->
+        <!--<item name="android:listDivider">@drawable/preference_divider_horizontal</item>-->
+        <!--<item name="android:alertDialogTheme">@style/AppTheme.Dialog.Alert.Preference</item>-->
+        <!--<item name="colorAccent">@color/pink_dark</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppBaseTheme.Night" parent="@style/AppBaseTheme">-->
+        <!--<item name="android:colorBackground">@color/night_dark</item>-->
+        <!--<item name="android:listSelector">?selectableItemBackground</item>-->
+    <!--</style>-->
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.noties.scrollable.ScrollableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:scrollable_closeUpAnimationMillis="0"
+    app:scrollable_considerIdleMillis="0"
+    app:scrollable_defaultCloseUp="false">
+
+    <FrameLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_parallax_max_height"
+        android:background="@color/theme_color_primary">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_gravity="top"
+            android:background="@drawable/shadow_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shadow_gradient_reserve" />
+
+        <com.papi.player.view.CircleIndicator
+            android:id="@+id/pager_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/circle_indicator_default_height"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/appbar_tab_height"
+            android:layout_marginStart="64dp"
+            android:visibility="invisible" />
+
+
+        <moe.feng.material.statusbar.AppBarLayout
+            android:id="@+id/appbar_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            app:colorDark="@color/theme_color_primary_dark"
+            app:colorNormal="@color/theme_color_primary"
+            app:enableElevation="false">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/appbar_parallax_max_height"
+                android:background="@color/theme_color_primary" />
+
+        </moe.feng.material.statusbar.AppBarLayout>
+
+        <com.papi.player.view.SlidingTabLayout
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/appbar_tab_height"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent"
+            app:paddingEnd="16dp"
+            app:paddingStart="16dp" />
+
+    </FrameLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tab_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <tv.danmaku.bili.widget.LoadingImageView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:paddingTop="@dimen/item_huge_spacing" />
+
+</ru.noties.scrollable.ScrollableLayout>

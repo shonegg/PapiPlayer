@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="toolbar_default_background_dark">@color/theme_color_primary</color>-->
+    <!--<color name="toolbar_default_background_dark_darker">@color/theme_color_primary_dark</color>-->
+
+    <!--<color name="purple_300">#BA68C8</color>-->
+    <!--<color name="deep_purple_500">#673AB7</color>-->
+
+    <!--&lt;!&ndash;<color name="pink_300">#F06292</color>&ndash;&gt;-->
+    <!--<color name="pink_500">#E91E63</color>-->
+    <!--<color name="pink_700">#C2185B</color>-->
+    <!--<color name="pink_800">#AD1457</color>-->
+
+    <!--<color name="material_blue_500">#5677fc</color>-->
+    <!--<color name="indigo_500">#3F51B5</color>-->
+    <!--<color name="blue_500">#2196F3</color>-->
+    <!--<color name="teal_500">#009688</color>-->
+    <!--<color name="green_500">#4CAF50</color>-->
+    <!--<color name="green_300">#81C784</color>-->
+    <!--<color name="orange_500">#FF9800</color>-->
+    <!--<color name="brown_500">#795548</color>-->
+
+
+
+    <!--<color name="navigation_background_light">#FFFFFFFF</color>-->
+    <!--<color name="navigation_background_dark">#424242</color>-->
+    <!--<color name="navigation_item_text_color_normal">#333333</color>-->
+    <!--<color name="navigation_item_text_color_highlight">@color/theme_color_primary</color>-->
+
+    <!--<color name="navigation_item_icon_color_normal">#333333</color>-->
+    <!--<color name="navigation_item_icon_color_highlight">@color/theme_color_primary</color>-->
+    <!--<color name="navigation_subtitle_primary_text">#FFFFFFFF</color>-->
+    <!--<color name="navigation_subtitle_secondary_text">#BFFFFFFF</color>-->
+
+    <!--<color name="card_view_background_light">@color/white</color>-->
+    <!--<color name="ijk_transparent_dark">#77000000</color>-->
+
+
+    <!--&lt;!&ndash; copy color from bili &ndash;&gt;-->
+    <!--<color name="gray_light">#ffdcdcdc</color>-->
+    <!--<color name="black">#cf000000</color>-->
+    <!--<color name="black_light_alpha">#26000000</color>-->
+    <!--<color name="black_light">#ff333333</color>-->
+    <!--<color name="white">#ffffffff</color>-->
+    <!--<color name="theme_color_dividing_line">#ffcccccc</color>-->
+    <!--<color name="gray_dark">#ff999999</color>-->
+    <!--<color name="theme_color_gray_pressed">#44999999</color>-->
+    <!--<color name="theme_color_card_2">#fffefefe</color>-->
+
+    <!--<color name="gray_trans">#44999999</color>-->
+    <!--<color name="theme_color_primary_trans">#99f0486c</color>-->
+    <!--<color name="pink_dark_trans">#99b85671</color>-->
+    <!--<color name="theme_color_text_primary">#ffffff</color>-->
+    <!--<color name="theme_color_secondary">#fffb7299</color>-->
+    <!--<color name="theme_color_secondary_dark">#ffb85671</color>-->
+    <!--<color name="theme_color_text_highlight">#99f0486c</color>-->
+    <!--<color name="theme_color_text_hint">#ff757575</color>-->
+    <!--<color name="theme_color_text_tertiary">#ffbbbbbb</color>-->
+    <!--<color name="theme_color_window_background">#ffeaeaea</color>&lt;!&ndash; 背景色&ndash;&gt;-->
+    <!--<color name="theme_color_primary">@color/material_blue_500</color> &lt;!&ndash; 主色调&ndash;&gt;-->
+    <!--<color name="theme_color_view_background">#fffafafa</color>-->
+    <!--<color name="theme_color_primary_dark">@color/indigo_500</color>&lt;!&ndash; 主色调暗&ndash;&gt;-->
+
+    <!--<color name="theme_color_card">#fffafafa</color>-->
+
+</resources>

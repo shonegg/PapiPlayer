@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/video_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/video_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/card_title_margin_small"
+            android:padding="@dimen/card_title_margin_small"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/video_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="@dimen/card_title_margin_small">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black_light"
+            tools:text="Title" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/video_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black_light"
+            tools:text="Title" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

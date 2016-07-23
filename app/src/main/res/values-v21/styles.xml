@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Dialog.Alert" parent="@style/AppTheme.AppCompat.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/Widget.App.AlterButton</item>
+    </style>
+
+    <style name="Widget.App.AlterButton" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/theme_color_secondary</item>
+    </style>
+
+    <style name="Widget.App.ListPopupWindow" parent="@style/Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">@color/theme_color_view_background</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/item_background</item>
+    </style>
+
+</resources>

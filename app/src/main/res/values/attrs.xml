@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ForegroundLayout">
+        <attr name="color_Pressed" format="color" />
+        <attr name="color_Normal" format="color" />
+        <attr name="color_Ripple" format="color" />
+        <attr name="color_Disabled" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AlphaView">
+        <attr name="alpha_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="StatusBarHeaderView">
+        <attr name="colorNormal" format="color" />
+        <attr name="colorDarker" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension" />
+        <attr name="ci_height" format="dimension" />
+        <attr name="ci_margin" format="dimension" />
+        <attr name="ci_animator" format="reference" />
+        <attr name="ci_animator_reverse" format="reference" />
+        <attr name="ci_drawable" format="reference" />
+        <attr name="ci_drawable_unselected" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <!-- Android Design Support Library -->
+    <declare-styleable name="ScrimInsetsFrameLayout">
+        <attr name="insetForeground" format="color|reference" />
+    </declare-styleable>
+
+    <!--<declare-styleable name="NavigationView">-->
+    <!--<attr name="android:background" />-->
+    <!--<attr name="android:fitsSystemWindows" />-->
+    <!--<attr name="android:maxWidth" />-->
+    <!--<attr name="elevation" />-->
+    <!--<attr name="menu" format="reference" />-->
+    <!--<attr name="itemIconTint" format="color" />-->
+    <!--<attr name="itemTextColor" format="color" />-->
+    <!--<attr name="itemBackground" format="reference" />-->
+    <!--<attr name="headerLayout" format="reference" />-->
+    <!--</declare-styleable>-->
+
+
+    <!-- copy from bilibili-->
+    <attr name="navigationTopBarSize" format="reference" />
+    <attr name="themeColorSecondary" format="color" />
+    <attr name="slidingTabBarSize" format="reference" />
+    <attr name="searchBarHeight" format="reference|dimension" />
+    <attr name="scalableImageView" format="reference" />
+    <attr name="filterTabBarSize" format="reference|dimension" />
+    <attr name="headLineTitleStyle" format="reference" />
+    <attr name="navigationBottomTabStyle" format="reference" />
+    <attr name="placeholderImage" format="reference" />
+    <attr name="placeholderImageScaleType">
+        <enum name="none" value="-1" />
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+    </attr>
+    <attr name="navigationBottomBarSize" format="reference" />
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/appbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_play_max_height"
+            android:background="@color/black_light">
+
+            <com.papi.player.engine.widget.media.IjkVideoView
+                android:id="@+id/video_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="visible"/>
+
+        </FrameLayout>
+
+
+        <com.papi.player.view.ObservableScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.papi.player.view.CircleProgressView
+                    android:id="@+id/circle_progress"
+                    android:layout_width="@dimen/circle_progress_view_default_size"
+                    android:layout_height="@dimen/circle_progress_view_default_size"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp"
+                    app:matProg_barColor="?attr/colorPrimary"
+                    app:matProg_barWidth="@dimen/circle_progress_view_default_border_width" />
+
+                <LinearLayout
+                    android:id="@+id/container_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingEnd="@dimen/activity_horizontal_margin"
+                    android:paddingStart="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorPrimary"
+                        android:textSize="@dimen/text_size_xlarge" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/title_margin_small"
+                        android:text="@string/header_title_description"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/title_margin_small"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/ijk_transparent_dark" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp" />
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </com.papi.player.view.ObservableScrollView>
+
+    </LinearLayout>
+
+
+    <!--<moe.feng.material.statusbar.AppBarLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:colorDark="@android:color/transparent"-->
+    <!--app:colorNormal="@color/black_light"-->
+    <!--app:enableElevation="false">-->
+
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--app:popupTheme="@style/ThemeOverlay.AppCompat"-->
+    <!--app:theme="@style/ThemeOverlay.AppCompat" />-->
+
+    <!--</moe.feng.material.statusbar.AppBarLayout>-->
+
+    <include layout="@layout/bili_app_layout_navigation_top_bar" />
+
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/floating_action_button_margin"
+        android:layout_marginTop="@dimen/video_play_max_height"
+        android:src="@drawable/ic_play_arrow_white_24dp"
+        app:fab_colorNormal="@color/theme_color_primary"
+        app:fab_colorPressed="@color/theme_color_primary_dark" />
+
+</FrameLayout>

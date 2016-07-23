@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <moe.feng.material.statusbar.StatusBarHeaderView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/status_bar_header_view"
+            app:colorNormal="@color/theme_color_primary"
+            app:colorDarker="@color/theme_color_primary_dark"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/theme_color_primary_dark"/>
+
+    </LinearLayout>
+
+</LinearLayout>

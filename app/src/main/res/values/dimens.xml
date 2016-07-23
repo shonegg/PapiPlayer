@@ -1,0 +1,95 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Common resources -->
+    <dimen name="toolbar_elevation">5dp</dimen>
+    <dimen name="appbar_parallax_max_height">256dp</dimen>
+    <dimen name="appbar_banner_title_size">18sp</dimen>
+    <dimen name="appbar_tab_height">48dp</dimen>
+    <dimen name="floating_action_button_margin">10dp</dimen>
+    <dimen name="floating_action_button_size_half">32dp</dimen>
+    <dimen name="fab_margin">0dp</dimen>
+
+    <!-- CircleIndicator -->
+    <dimen name="circle_indicator_default_height">20dp</dimen>
+
+    <!-- CircleProgressView -->
+    <dimen name="circle_progress_view_default_size">56dp</dimen>
+    <dimen name="circle_progress_view_default_border_width">4dp</dimen>
+
+
+    <!-- Card -->
+    <dimen name="touch_raise">6dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
+    <dimen name="card_margin_h">5dp</dimen>
+    <dimen name="card_margin_v">3dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="card_title_margin">10dp</dimen>
+    <dimen name="card_title_margin_small">5dp</dimen>
+
+    <dimen name="title_margin_small">8dp</dimen>
+
+    <!-- List -->
+    <dimen name="list_item_vertical_margin_small">8dp</dimen>
+
+    <dimen name="list_item_avatar_size">48dp</dimen>
+    <dimen name="list_item_user_name_size">14sp</dimen>
+
+    <!-- Bangumi -->
+    <dimen name="bangumi_horizontal_list_height">220dp</dimen>
+    <dimen name="bangumi_horizontal_single_item_width">120dp</dimen>
+    <dimen name="bangumi_horizontal_title_frame_max_height">48sp</dimen>
+
+    <!-- Navigation -->
+    <dimen name="navigation_header_height">180dp</dimen>
+    <dimen name="navigation_avatar_size">64dp</dimen>
+    <dimen name="navigation_avatar_margin">16dp</dimen>
+    <dimen name="navigation_subtitle_height">56dp</dimen>
+    <dimen name="navigation_subtitle_primary_text_size">16sp</dimen>
+    <dimen name="navigation_subtitle_secondary_text_size">14sp</dimen>
+    <dimen name="navigation_subtitle_text_padding_vertical">8dp</dimen>
+    <dimen name="navigation_subtitle_text_padding_vertical_smaller">4dp</dimen>
+    <dimen name="navigation_subtitle_text_padding_horizontal">16dp</dimen>
+
+    <!-- Android Design Support Library -->
+    <dimen name="navigation_elevation">12dp</dimen>
+    <dimen name="navigation_icon_padding">32dp</dimen>
+    <dimen name="navigation_icon_size">24dp</dimen>
+    <dimen name="navigation_max_width">288.0dip</dimen>
+    <dimen name="navigation_padding_bottom">8dp</dimen>
+    <dimen name="navigation_padding_top_default">0dp</dimen>
+    <dimen name="navigation_separator_vertical_padding">8dp</dimen>
+
+    <!-- Layouts' special resources -->
+    <!-- activity_video_view.xml -->
+    <dimen name="video_info_mini_icons_size">16dp</dimen>
+    <dimen name="video_info_count_text_margin_start">4dp</dimen>
+
+
+
+
+    <!--copy dimens from bili -->
+    <dimen name="item_spacing">8.0dip</dimen>
+    <dimen name="item_spacing_large">16.0dip</dimen>
+    <dimen name="item_spacing_xlarge">60.0dip</dimen>
+    <dimen name="item_half_spacing">4.0dip</dimen>
+    <dimen name="item_huge_spacing">40.0dip</dimen>
+
+
+    <dimen name="text_size_small">10.0sp</dimen>
+    <dimen name="text_size_medium">12.0sp</dimen>
+    <dimen name="text_size_large">14.0sp</dimen>
+    <dimen name="text_size_xlarge">16.0sp</dimen>
+
+    <item name="dialog_width_major" type="dimen">90.0%</item>
+    <item name="dialog_width_minor" type="dimen">90.0%</item>
+    <dimen name="elevation">4.0dip</dimen>
+    <dimen name="navigation_bottom_bar_size">50.0dip</dimen>
+    <dimen name="navigation_top_bar_size">56.0dip</dimen>
+    <dimen name="filter_bar_size">40.0dip</dimen>
+
+    <dimen name="video_play_max_height">256dp</dimen>
+</resources>

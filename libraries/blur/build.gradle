@@ -1,0 +1,96 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+//导入Os包,方便下面判断系统平台Linux \ windows
+apply plugin: 'com.android.library'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+}
+
+
+def getNdkBuildName() {//NDK编译工具名称,区别Linux和windows
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        return "ndk-build.cmd"
+    } else {
+        return "ndk-build"
+    }
+}
+
+def getNdkBuildFullPath() {//NDK全路径
+    File propFile = project.rootProject.file('local.properties')
+    if (!propFile.exists()) {
+        return getNdkBuildName()
+    }
+    Properties properties = new Properties()
+    properties.load(propFile.newDataInputStream())
+    def ndkCommand = properties.getProperty('ndk.command')
+    if (ndkCommand != null) {
+        return ndkCommand
+    }
+    def path = null
+    def ndkPath = properties.getProperty('ndk.path')
+    if (ndkPath != null) {
+        path = ndkPath
+    } else {
+        def ndkDir = properties.getProperty('ndk.dir')
+        if (ndkDir != null) {
+            path = ndkDir
+        }
+    }
+    if (path != null) {
+        if (!path.endsWith(File.separator)) {
+            path += File.separator
+        }
+        return path + getNdkBuildName()
+    } else {
+        // if none of above is provided, we assume ndk-build is already in $PATH
+        return getNdkBuildName()
+    }
+}
+
+android {
+    compileSdkVersion = 23
+    buildToolsVersion = "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode = 200
+        versionName = "2.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles.add(file('proguard-rules.pro'))
+        }
+    }
+
+
+    sourceSets.main {
+        jni.srcDirs = [] //关掉自动编译
+        jniLibs.srcDirs 'src/main/libs'
+    }// This prevents the auto generation of Android.mk
+}
+
+task hello_ndk_build(type: Exec) {
+    commandLine getNdkBuildFullPath(),
+            'NDK_APPLICATION_MK=Application.mk',
+            'NDK_OUT=' + temporaryDir,
+            "NDK_LIBS_OUT=" + file("src/main/libs").absolutePath,
+            '-C', file("src/main/jni").absolutePath,
+            '--jobs', Runtime.getRuntime().availableProcessors()
+}
+
+tasks.withType(JavaCompile) {
+    compileTask -> compileTask.dependsOn "hello_ndk_build"//与task任务名相同
+}
+
+task hello_ndk_clean(type: Exec) {
+    commandLine getNdkBuildFullPath(),
+            'clean',
+            '-C', file("src/main/jni").absolutePath
+}
+
+clean.dependsOn 'hello_ndk_clean'//clean依赖上面定义的任务
+

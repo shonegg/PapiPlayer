@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_widget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/grid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:columnWidth="90dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:paddingBottom="@dimen/item_half_spacing"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="@dimen/item_half_spacing"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!--<tv.danmaku.bili.widget.LoadingImageView-->
+        <!--android:id="@+id/loading"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:clickable="true"-->
+        <!--android:paddingTop="@dimen/item_huge_spacing" />-->
+
+</LinearLayout>

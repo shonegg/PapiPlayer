@@ -1,0 +1,119 @@
+<resources>
+
+    <string name="app_name">追客生活</string>
+
+    <!-- Common Resources -->
+    <string name="snackbar_try_again">重试</string>
+
+    <string name="tips_cannot_get_banner">加载失败</string>
+
+    <!-- Video View Activity -->
+    <string name="info_play_score_format">%s分</string>
+    <string name="info_reviews_format">%d</string>
+    <string name="header_title_description">简介</string>
+
+    <!-- User Info Activity -->
+    <string name="title_user_info">User information</string>
+    <string name="type_no_watching_unknown">Watch it</string>
+    <string name="type_no_watching_male">Watch him</string>
+    <string name="type_no_watching_female">Watch her</string>
+    <string name="type_watching">Watching</string>
+    <string name="type_following_you">Following you</string>
+    <string name="type_friend">Friend</string>
+    <string name="info_following_format">Following %d</string>
+    <string name="info_fans_format">Fans %d</string>
+
+    <!-- Video Item Info -->
+    <string name="item_info_uper_format">Author: %s</string>
+
+    <!-- User List Activity -->
+    <string name="title_user_list">User list</string>
+    <string name="title_user_list_following">Following users</string>
+    <string name="title_user_list_fans">Fans list</string>
+
+    <!-- Simple Browser Activity -->
+    <string name="title_browser">Browse page</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_open_outside">Open with browser</string>
+    <string name="action_copy_link">Copy link</string>
+    <string name="action_share">Share....</string>
+
+    <string name="tips_copy_link_okay">Link has been copied to clipboard.</string>
+
+    <!-- ijkplayer-->
+    <string name="N_A">N/A</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="sample">Sample</string>
+    <string name="recent">Recent</string>
+    <string name="settings">Settings</string>
+    <string name="tracks">Tracks</string>
+    <string name="toggle_player">Player</string>
+    <string name="toggle_render">Render</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="show_info">Info</string>
+    <string name="vdec">vdec</string>
+    <string name="fps">fps</string>
+    <string name="v_cache">v-cache</string>
+    <string name="a_cache">a-cache</string>
+    <string name="media_information">Media Information</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi__selected_audio_track">*</string>
+    <string name="TrackType_video">Video</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_unknown">Unknown</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+    <string name="VideoView_player_none">Player: None</string>
+    <string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer</string>
+    <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
+    <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
+
+
+    <!-- copy strings from bili -->
+    <string name="bangumi_season_desc_title">简介</string>
+    <string name="more">更多</string>
+    <string name="bangumi_season_eps_title">选集</string>
+    <string name="no_data_tips">╮(╯3╰)╭再怎么找也没有啦</string>
+    <string name="feedback_comment_more">更多评论</string>
+    <string name="tips_load_error">加载失败了Σ(OДO,触屏重新加载</string>
+
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">正在加载中…</string>
+    <string name="list_footer_network_error">点击重新加载</string>
+    <string name="list_footer_end">已经到底了</string>
+
+    <string name="net_hint">小伙伴,你正在使用手机流量哦~</string>
+
+</resources>

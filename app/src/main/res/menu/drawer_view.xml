@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:checkableBehavior="single">
+
+    <group
+        android:id="@+id/nav_group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="首页" />
+
+
+        <item
+            android:id="@+id/nav_histories"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="历史记录" />
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/ic_color_lens_black_24dp"
+            android:title="本地干货" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:orderInCategory="3"
+            android:title="设置" />
+    </group>
+
+
+</menu>

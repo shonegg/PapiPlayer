@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- change below 3 color-->
+    <color name="theme_color_primary">@color/blue</color>
+    <color name="theme_color_primary_dark">@color/blue_dark</color>
+    <color name="theme_color_primary_trans">@color/blue_trans</color>
+
+    <color name="theme_color_secondary">@color/theme_color_primary</color>
+    <color name="theme_color_secondary_dark">@color/theme_color_primary_dark</color>
+
+    <color name="text_primary_color">#2d2d2d</color>
+    <color name="window_background">#eaeaea</color>
+
+    <color name="black_light">#333333</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_trans">#99ffffff</color>
+
+    <color name="gray_dark">#999999</color>
+    <color name="gray_trans">#44999999</color>
+    <color name="gray_light">#dcdcdc</color>
+
+    <!-- theme color -->
+    <color name="pink">#fb7299</color>
+    <color name="pink_dark">#b85671</color>
+    <color name="pink_trans">#99f0486c</color>
+
+    <!--<color name="blue">#2196F3</color>-->
+    <color name="blue">#5677fc</color>
+    <color name="blue_dark">#1565C0</color>
+    <color name="blue_trans">#B41A78C3</color>
+
+    <color name="purple">#673AB7</color>
+    <color name="purple_dark">#311B92</color>
+    <color name="purple_trans">#99673AB7</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="green_dark">#2E7D32</color>
+    <color name="green_trans">#994CAF50</color>
+
+    <color name="green_light">#8BC34A</color>
+    <color name="green_light_dark">#558B2F</color>
+    <color name="green_light_trans">#998BC34A</color>
+
+    <color name="yellow">#FDD835</color>
+    <color name="yellow_dark">#FBC02D</color>
+    <color name="yellow_trans">#99FDD835</color>
+
+    <color name="orange">#FF9800</color>
+    <color name="orange_dark">#EF6C00</color>
+    <color name="orange_trans">#99FF9800</color>
+
+    <color name="red">#F44336</color>
+    <color name="red_dark">#C62828</color>
+    <color name="red_trans">#99F44336</color>
+
+
+    <!-- - - - - - - - - -divider- - - - - - - - - -->
+    <color name="ijk_transparent_dark">#77000000</color>
+
+    <color name="theme_color_dividing_line">#ffcccccc</color>
+    <color name="theme_color_view_background">#fffafafa</color>
+    <color name="theme_color_window_background">#ffeaeaea</color>
+    <color name="theme_color_gray_pressed">#44999999</color>
+    <color name="black">#ff000000</color>
+    <color name="theme_color_text_hint">#ff757575</color>
+    <color name="theme_color_card">#fffafafa</color>
+    <color name="theme_color_card_2">#fffefefe</color>
+    <color name="theme_color_text_tertiary">#ffbbbbbb</color>
+    <color name="theme_color_text_highlight">@color/theme_color_primary_trans</color>
+</resources>

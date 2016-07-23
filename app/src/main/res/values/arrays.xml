@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="setting_qinxidu">
+        <item>自动选择(推荐)</item>
+        <item>流畅优先</item>
+        <item>高清优先</item>
+    </string-array>
+
+    <string-array name="setting_qinxidu_desc">
+        <item>自动选择: 根据机型智能适配</item>
+        <item>流畅优先: 节省流量</item>
+        <item>高清优先: 需要更多流量,以及更高端的机型</item>
+    </string-array>
+
+    <string-array name="setting_play_action">
+        <item>播完暂停</item>
+        <item>单P循环</item>
+        <item>多P播放</item>
+        <item>多P循环</item>
+        <item>播完退出</item>
+    </string-array>
+
+    <string-array name="setting_play_action_desc">
+        <item>播完暂停: 停止播放等操作</item>
+        <item>洗脑循环: 自动循环播放当前视频</item>
+        <item>自动换P: 自动播放下一P视频</item>
+        <item>多P循环: 自动播放下一P视频,列表结束后从头开始</item>
+        <item>播完退出: 退出播放界面</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/libraries/Flowlayout/Flowlayout.iml" filepath="$PROJECT_DIR$/libraries/Flowlayout/Flowlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/Headerandfooterrecyclerview/Headerandfooterrecyclerview.iml" filepath="$PROJECT_DIR$/libraries/Headerandfooterrecyclerview/Headerandfooterrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDaoGenerator/MyDaoGenerator.iml" filepath="$PROJECT_DIR$/MyDaoGenerator/MyDaoGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaPaPlayer.iml" filepath="$PROJECT_DIR$/PaPaPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/PersistentSearch/PersistentSearch.iml" filepath="$PROJECT_DIR$/libraries/PersistentSearch/PersistentSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/StatusBarCompat/StatusBarCompat.iml" filepath="$PROJECT_DIR$/libraries/StatusBarCompat/StatusBarCompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/blur/blur.iml" filepath="$PROJECT_DIR$/libraries/blur/blur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer-exo/ijkplayer-exo.iml" filepath="$PROJECT_DIR$/ijkplayer-exo/ijkplayer-exo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" filepath="$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+    </modules>
+  </component>
+</project>
